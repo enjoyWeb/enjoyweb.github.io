@@ -1,98 +1,59 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-
-  <meta charset="UTF-8">
-
-  <title>钟领Web</title>
-
+    <meta charset="UTF-8">
+    <title>欢迎来到zlingweb</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-
 </head>
 
 <body>
-<center>
-  <div id="animation">
-    <div class="bike">
-             <div class="basket"><div class="basket-screw"></div></div>
-             <div class="basket-wire"></div>
-
-      <div class="front wheel">
-            <div class="rim">
-                <div class="air"></div>
-            </div>
-            <div class="hub"></div>
-            <div class="spokes">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-
-        <div class="frame">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div class="small"></div>
-            <div></div>
-            <div class="small"></div>
-        </div>
-
-       <div class="seat">
-            <div class="support"></div>
-            <div class="saddle"></div>
-        </div>
-
-      <div class="handlebars">
-          <div class="handle"><div class="handle-hub"></div></div>
-
-        </div>
-
-      <div class="pedals">
-            <div class="gear">
-                <div class="hub"></div>
-                <div class="struts">
+    <h1 class="webtitle">欢迎来到zlingweb</h1>
+    <canvas class="canvas"></canvas>
+    <div class="help">?</div>
+    <div class="ui">
+        <input class="ui-input" type="text" />
+        <span class="ui-return">↵</span>
+    </div>
+    <div class="overlay">
+        <div class="tabs">
+            <div class="tabs-labels"><span class="tabs-label" style="display:none;">Commands</span><!-- <span class="tabs-label">Info</span><span class="tabs-label">Share</span> --></div>
+            <div class="tabs-panels">
+                <ul class="tabs-panel commands">
+                    <li class="commands-item"><span class="commands-item-title">文本</span><span class="commands-item-info" data-demo="Hello :)">写任何内容</span><span class="commands-item-action">示例</span></li>
+                    <li class="commands-item"><span class="commands-item-title">倒计时</span><span class="commands-item-info" data-demo="#countdown 10">倒数<span class="commands-item-mode">10秒</span></span><span class="commands-item-action">示例</span></li>
+                    <li class="commands-item"><span class="commands-item-title">时间</span><span class="commands-item-info" data-demo="#time">现在的时间</span><span class="commands-item-action">示例</span></li>
+                    <li class="commands-item"><span class="commands-item-title">矩形</span><span class="commands-item-info" data-demo="#rectangle 30x15">矩形<span class="commands-item-mode">宽度 x 高度</span></span><span class="commands-item-action">示例</span></li>
+                    <li class="commands-item"><span class="commands-item-title">圆形</span><span class="commands-item-info" data-demo="#circle 25">圆形<span class="commands-item-mode">圆角度数</span></span><span class="commands-item-action">示例</span></li>
+                    <li class="commands-item commands-item--gap"><span class="commands-item-title">动画</span><span class="commands-item-info" data-demo="现在|是|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">现在的时间</span><!-- &nbsp;|<span class="commands-item-mode">command2</span> --></span><span class="commands-item-action">示例</span></li>
+                </ul>
+                <div class="tabs-panel ui-details">
+                    <div class="ui-details-content">
+                        <h1>Shape Shifter</h1>
+                        <p>
+                            An experiment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/>
+            <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
+                        </p>
+                        <br/>
+                        <p>Visit <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Shape Shifter</a> to use icons.</p>
+                    </div>
+                </div>
+                <div class="tabs-panel ui-share">
+                    <div class="ui-share-content">
+                        <h1>Sharing</h1>
+                        <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
+                        <p>
+                            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a>
+                            <br/>
+                            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="front pedal">
-                <div class="footpad"></div>
-            </div>
-            <div class="back pedal">
-                <div class="footpad"></div>
-            </div>
         </div>
-
-        <div class="back wheel">
-              <div class="rim">
-                  <div class="air"></div>
-              </div>
-              <div class="hub"></div>
-              <div class="gear"></div>
-              <div class="spokes">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-              </div>
-          </div>
-        <div class="chain"></div>
-
     </div>
-</div>
-</center>
-
-<div style="text-align:center;margin:150px 0; font:normal 14px/24px 'MicroSoft YaHei';">
-
-</div>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
