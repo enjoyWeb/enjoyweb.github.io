@@ -11,9 +11,7 @@ html , body {
     left: 0%;
 }
 
-html {
-    background-color: rgba(58,62,67,1);    
-}
+html {}
 #animation {
   width:450px;
 }
