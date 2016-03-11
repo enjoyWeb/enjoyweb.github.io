@@ -1,14 +1,9 @@
 
 /*
 
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
   Updated code
   ------------
-  https://github.com/kennethcachia/Shape-Shifter 
+  http://www.weibo.com/2718532847/profile?rightmod=1&wvr=6&mod=personinfo
 
 */
 
